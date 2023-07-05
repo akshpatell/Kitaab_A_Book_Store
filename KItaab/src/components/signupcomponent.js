@@ -90,7 +90,7 @@ export default class SignUp extends Component {
   }
 
   handleSubmit(e) {
-    if (this.state.userType === "admin" && this.state.secretKey !== "DHARMIK") {
+    if (this.state.userType === "admin" && this.state.secretKey !== "AKSH") {
       e.preventDefault();
       alert("Invalid Admin");
     } else {
