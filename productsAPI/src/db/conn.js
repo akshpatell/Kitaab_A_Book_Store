@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 async function connectDB(){
     try {
-        await mongoose.connect("mongodb+srv://admin:aksh123@cluster0.xkuefl9.mongodb.net/", {
+        await mongoose.connect("mongodb+srv://aksh:Aksh@9363@cluster0.coce9lz.mongodb.net/", {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
